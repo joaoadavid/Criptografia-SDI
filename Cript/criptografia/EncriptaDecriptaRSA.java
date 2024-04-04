@@ -36,7 +36,7 @@ public class EncriptaDecriptaRSA {
 
     public static KeyPair generateKeys() throws NoSuchAlgorithmException {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-        keyPairGenerator.initialize(2048); // Tamanho da chave em bits
+        keyPairGenerator.initialize(2048); 
         return keyPairGenerator.generateKeyPair();
     }
 
